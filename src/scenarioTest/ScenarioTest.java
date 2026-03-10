@@ -4,10 +4,10 @@ import villagegaulois.Etal;
 
 public class ScenarioTest {
 
-//	public static void acheterProduit(Etal[] marche, String produit, int quantiteSouhaitee) {
+//	public static void acheterProduit(IEtal[] marche, String produit, int quantiteSouhaitee) {
 //		int quantiteRestante = quantiteSouhaitee;
 //		for (int i = 0; i < marche.length && quantiteRestante != 0; i++) {
-//			Etal etal = marche[i];
+//			IEtal etal = marche[i];
 //			int quantiteDisponible = etal.contientProduit(produit, quantiteRestante);
 //			if (quantiteDisponible != 0) {
 //				int prix = etal.acheterProduit(quantiteDisponible);
@@ -35,3 +35,4 @@ public class ScenarioTest {
 	}
 
 }
+
