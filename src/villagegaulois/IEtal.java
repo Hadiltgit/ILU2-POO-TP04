@@ -7,4 +7,5 @@ public interface IEtal {
 	int acheterProduit(int quantiteSouhaitee);
 	String etatEtal();
 	
+	
 }

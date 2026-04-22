@@ -22,6 +22,6 @@ public abstract class Produit implements IProduit {
 	    }
 	   
 	   @Override
-	public  abstract String decrireProduit();
+	 public  abstract String decrireProduit();
 	  
 }

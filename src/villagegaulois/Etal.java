@@ -3,7 +3,7 @@ package villagegaulois;
 import personnages.Gaulois;
 import produit.*;
 
-public class Etal <P extends IProduit>  implements IEtal {
+public  class Etal <P extends IProduit>  implements IEtal {
 	private Gaulois vendeur;
 	private int quantiteDebutMarche;
 	private int quantite;
@@ -42,11 +42,6 @@ public class Etal <P extends IProduit>  implements IEtal {
 			}
 		}
 		return quantiteAVendre;
-	}
-	
-	@Override
-	public int calculerPrix(int prix) {
-		return 5;
 	}
 	
 	@Override
@@ -89,7 +84,8 @@ public class Etal <P extends IProduit>  implements IEtal {
 		chaine.append("\n");
 		return chaine.toString();
 	}
-
+	
+	
 
 
 
